@@ -1,6 +1,28 @@
 # This is prefixed to the key of each label that is added.
-iris_prefix: iris
+iris_prefix: cc
 # If from_project enabled, then for each resource we are labeling, copy in the labels from its project.
 from_project: True
-#  Only these projects are included. If empty, all projects in the organization are included.
-projects: {}
+#  Only resources in these projects are included. If empty, all projects in the organization are included.
+projects:
+  - climacell-data-processes-dev
+  - staging-183518
+  - tomorrow-infra-dev
+  - tomorrow-infra-staging
+  - climacell-b2c-dev
+  - climacell-staging-b2c-website
+  - climacell-platform-dev
+  - climacell-platform-staging
+  - customer-success-development
+  - climacell-research
+  - resolute-ascent-161700
+  - climacell-b2c
+  - idea-195015
+  - climacell-mobile
+  - climacell-maps
+  - tomorrow-infra-prod
+  - climacell-production-datalake
+  - climacell-infra-prod
+  - climacell-platform-production
+  - climacell-security-tools
+  - climacell-prod-b2c-website
+  - customer-success-prod
