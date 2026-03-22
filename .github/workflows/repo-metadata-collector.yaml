@@ -35,5 +35,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ORG_AUTH_TOKEN }}
           GCP_WIP: ${{ secrets.GCP_WIP }}
           enable_tf_state: 'true'
-          enable_topics_sync: 'true'
+          enable_topics_sync: 'false'
           env_name: 'production'
